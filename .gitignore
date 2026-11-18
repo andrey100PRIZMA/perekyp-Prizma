@@ -1,0 +1,23 @@
+# зависимости
+node_modules/
+
+# сборка
+dist/
+.verify/
+*.tsbuildinfo
+
+# логи
+npm-debug.log*
+yarn-error.log*
+
+# локальные настройки редактора и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# локальные секреты (ключи Supabase храните в src/supabase.ts — там только publishable)
+.env
+.env.local
+.env.*.local
